@@ -1,10 +1,10 @@
 Curl and libcurl 7.51.0
 
- Public curl releases:         159
+ Public curl releases:         160
  Command line options:         185
  curl_easy_setopt() options:   224
  Public functions in libcurl:  61
- Contributors:                 1441
+ Contributors:                 1445
 
 This release includes the following changes:
 
@@ -12,12 +12,7 @@ This release includes the following changes:
 
 This release includes the following bugfixes:
 
- o mk-ca-bundle.pl: use SHA256 instead of SHA1
- o checksrc: detect strtok() use
- o errors: new alias CURLE_WEIRD_SERVER_REPLY [1]
- o http2: support > 64bit sized uploads [2]
- o openssl: fix bad memory free (regression) [3]
- o CMake: hide private library symbols [4]
+ o
 
 This release includes the following known bugs:
 
@@ -26,15 +21,10 @@ This release includes the following known bugs:
 This release would not have looked like this without help, code, reports and
 advice from friends like these:
 
-  Daniel Stenberg, Harold Stuart, Jakub Zakrzewski, Randy Armstrong,
-  Ray Satiro, Viktor Szakáts,
-  (6 contributors)
+
 
         Thanks! (and sorry if I forgot to mention someone)
 
 References to bug reports and discussions on issues:
 
- [1] = https://curl.haxx.se/bug/?i=975
- [2] = https://curl.haxx.se/bug/?i=996
- [3] = https://curl.haxx.se/bug/?i=1005
- [4] = https://curl.haxx.se/bug/?i=981
+ [1] = https://curl.haxx.se/bug/?i=
